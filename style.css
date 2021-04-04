@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin-top: 10px;
+}
+.menu {
+  font-family: "Courier New", Courier, monospace;
+}
+.menu__content {
+  display: flex;
+  list-style: none;
+}
+.menu__item {
+  margin: 0 10px;
+  padding: 8px;
+  background-color: salmon;
+  border-radius: 10px;
+}
+.menu__item a {
+  text-decoration: none;
+  color: black;
+}
+.menu__item a:hover {
+  color: white;
+  cursor: pointer;
+}
